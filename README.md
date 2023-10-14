@@ -9,6 +9,38 @@ Leading open source e-commerce platform for javascript developers. An API-first 
 
 - https://blog.openreplay.com/create-an-ecommerce-platform-with-medusa-and-docker/
 
+
+## Medusa Architecture Overview
+
+**Three main components of a Medusa** project
+Medusa’s complete architecture consists of three main components: 
+
+- Headless Node.js Ecommerce Server,
+- Admin Dashboard
+- Storefront. 
+
+
+The modular and headless architecture makes all three components completely separated and deployable to different environments without any restriction.
+
+To understand more what each component is:
+
+**Medusa Server (Headless)**
+
+This is the core component and is the brain of your online store. It is a Node.js Ecommerce Server. Being a headless server, it is accessed via REST APIs. Both the storefront and admin dashboard are presentation layers to interact with the server.
+Everything you configure in the admin dashboard or actions performed by consumers on the storefront are handled underneath by the Medusa server.
+
+
+**Admin Dashboard**
+
+Only authorized personnel can access the admin dashboard. This is where you manage your online store’s data and settings such as adding products, setting price/currencies, and managing orders.
+Medusa provides an intuitive admin built with Gatsby, but you can also create your own from scratch using the REST APIs.
+
+
+**Storefront**
+
+A storefront is where consumers arrive, search for products and buy them. An example of a storefront is the Amazon website. You can either have one cross-platform storefront (e.g., web application), or multiple storefronts (e.g., web, iOS, and Android native applications).
+Medusa provides two starter storefronts, one built using Next.js and one using Gatsby. You can also build your own storefront by interacting with the REST APIs.
+
 ## Medusa’s headless architecture
 
 **Medusa's architecture**

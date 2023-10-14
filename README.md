@@ -20,6 +20,9 @@ Medusa’s complete architecture consists of three main components:
 - Storefront. 
 
 
+![Headless E-commerce](https://github.com/sanogotech/medusaEcommerce/blob/main/HeadlessArchi.png)
+
+
 The modular and headless architecture makes all three components completely separated and deployable to different environments without any restriction.
 
 To understand more what each component is:

@@ -12,7 +12,13 @@ Leading open source e-commerce platform for javascript developers. An API-first 
 **Medusa's architecture**
 
 
-Headless is the concept of decoupling the frontend from the backend. For the backend, this means that it’s free from the shackles of any presentation layer. The backend is only responsible for handling the data and logic of the system.
+![Medusa Headless E-commerce Architecture](
+https://github.com/sanogotech/medusaEcommerce/blob/main/medusaEcommerceArchi.jpg)
+
+
+Headless is the concept of decoupling the frontend from the backend. For the backend, this means that it’s free from the shackles of any presentation layer. 
+
+The backend is only responsible for handling the data and logic of the system.
 
 The backend exposes a set of APIs that allows any frontend or presentation layer to interact with it.
 

@@ -4,3 +4,5 @@ Leading open source e-commerce platform for javascript developers. An API-first 
 ## Docs
 
 - https://www.sitepoint.com/medusa-shopify-alternative/
+
+- https://blog.openreplay.com/create-an-ecommerce-platform-with-medusa-and-docker/
